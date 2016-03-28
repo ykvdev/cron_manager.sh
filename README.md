@@ -7,7 +7,7 @@ Small SH script for managing cron jobs for your any projects. Cron jobs save to 
 $ sudo su
 # cd /usr/local/bin/
 # wget -O cron_manager https://raw.githubusercontent.com/atoumus/cron_manager.sh/master/cron_manager.sh
-# chmod +x cron_manager.sh
+# chmod +x cron_manager
 ```
 
 ## How to use
@@ -21,12 +21,12 @@ Run the one of available commands: `update` or `clear`.
 
 `update` command using for add/update/remove cron jobs by your config crontab file, example:
 ```bash
-$ sh ./cron_manager.sh update ./crontab
+$ cron_manager update ./crontab
 ```
 
 `clear` command using for clear all jobs of your project from crontab, example:
 ```bash
-$ sh ./cron_manager.sh clear
+$ cron_manager clear
 ```
 
 This is all, good luck!
