@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 CMD_UPDATE="update"
 CMD_CLEAR="clear"
