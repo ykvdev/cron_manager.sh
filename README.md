@@ -19,3 +19,5 @@ $ sh ./cron_manager.sh update ./crontab
 ```bash
 $ sh ./cron_manager.sh clear
 ```
+
+This is all, good luck!
