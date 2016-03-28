@@ -1,6 +1,15 @@
 # Cron manager (cron_manager.sh)
 Small SH script for managing cron jobs for your any projects. Cron jobs save to crontab using `crontab` command and save to current user crontab file, **this is not required root permissions**.
 
+## Install on Linux
+
+```bash
+$ sudo su
+# cd /usr/local/bin/
+# wget -O cron_manager https://raw.githubusercontent.com/atoumus/cron_manager.sh/master/cron_manager.sh
+# chmod +x cron_manager.sh
+```
+
 ## How to use
 
 Go to project root directory **necessarily!** Current directory is perceived as project base path and use for add or remove jobs from crontab.
