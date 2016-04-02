@@ -7,7 +7,7 @@ Small SH script for managing cron jobs for your any projects. Cron jobs save to 
 $ sudo su
 # cd /usr/local/bin/
 # wget -O cron_manager https://raw.githubusercontent.com/atoumus/cron_manager.sh/master/cron_manager.sh
-# chmod +x cron_manager
+# chmod a+x cron_manager
 ```
 
 ## How to use
