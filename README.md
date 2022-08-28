@@ -6,13 +6,13 @@ Small SH script for managing cron jobs for your any projects. Cron jobs save to 
 ```
 $ sudo su
 # cd /usr/local/bin/
-# wget -O cron_manager https://raw.githubusercontent.com/atoumus/cron_manager.sh/master/cron_manager.sh
+# wget -O cron_manager https://raw.githubusercontent.com/ykvdev/cron_manager.sh/master/cron_manager.sh
 # chmod a+x cron_manager
 ```
 
 ## How to use
 
-Go to project root directory **necessarily!** Current directory is perceived as project base path and use for add or remove jobs from crontab.
+Go to project root directory **necessarily!** Current directory is perceived as project base path and use for adding or removing jobs from crontab.
 ```bash
 $ cd /var/www/your-site.com
 ```
@@ -28,5 +28,3 @@ $ cron_manager update ./crontab
 ```bash
 $ cron_manager clear
 ```
-
-This is all, good luck!
